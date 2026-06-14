@@ -25,16 +25,16 @@ This project builds a complete pipeline including:
 │   ├── MLP_kmer.ipynb
 │   ├── kmer_tuning.ipynb
 │   ├── kmer_GOsplit_70.ipynb
-│   ├── kmer_error_analysis.ipynb
+│   └── kmer_error_analysis.ipynb
 │
 ├── ESM/
 │   ├── ESM2_embedding.ipynb
 │   ├── MLP_ESM.ipynb
 │   ├── ESM_tuning.ipynb
 │   ├── ESM_GOsplit_70.ipynb
-│   ├── ESM_error_analysis.ipynb
+│   └── ESM_error_analysis.ipynb
 │
-├── cafa-5-protein-function-prediction
+├── cafa-5-protein-function-prediction/
 ├── requirements.txt
 └── README.md
 
