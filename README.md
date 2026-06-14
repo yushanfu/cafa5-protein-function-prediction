@@ -17,26 +17,27 @@ This project builds a complete pipeline including:
 
 ---
 
-## 📁 Project Structure
 
-.
-├── kmer/
-│   ├── data_preprocessing_kmer_70.ipynb
-│   ├── MLP_kmer.ipynb
-│   ├── kmer_tuning.ipynb
-│   ├── kmer_GOsplit_70.ipynb
-│   └── kmer_error_analysis.ipynb
-│
-├── ESM/
-│   ├── ESM2_embedding.ipynb
-│   ├── MLP_ESM.ipynb
-│   ├── ESM_tuning.ipynb
-│   ├── ESM_GOsplit_70.ipynb
-│   └── ESM_error_analysis.ipynb
-│
-├── cafa-5-protein-function-prediction/
-├── requirements.txt
-└── README.md
+## Directory Overview
+
+### kmer/
+- `data_preprocessing_kmer_70.ipynb` – Generate k-mer features and create train/validation/test splits
+- `MLP_kmer.ipynb` – Baseline MLP model using k-mer features
+- `kmer_tuning.ipynb` – Hyperparameter tuning experiments
+- `kmer_GOsplit_70.ipynb` – Namespace-specific evaluation (BPO, CCO, MFO)
+- `kmer_error_analysis.ipynb` – Error analysis
+
+### ESM/
+- `ESM2_embedding.ipynb` – Generate ESM2 protein embeddings
+- `MLP_ESM.ipynb` – Baseline MLP model using ESM embeddings
+- `ESM_tuning.ipynb` – Hyperparameter tuning experiments
+- `ESM_GOsplit_70.ipynb` – Namespace-specific evaluation (BPO, CCO, MFO)
+- `ESM_error_analysis.ipynb` – Error analysis
+
+### Other Files
+- `cafa-5-protein-function-prediction/` – Original CAFA-5 dataset
+- `requirements.txt` – Python dependencies
+- `README.md` – Project documentation
 
 cafa-5-protein-function-prediction include raw data
 ---
